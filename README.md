@@ -54,6 +54,10 @@ __Exam Sections__
     - Very easy in web console
     - [Health checks using the developer perspective in RHOCP docs](https://docs.openshift.com/container-platform/4.6/applications/application-health.html#odc-adding-health-checks)
 
+9. __Helm__
+    - Try to practise all the labs from DO280
+    - Understanding of the Helm commands, modifying the image details, updating the port details and installing the helm chart
+    - 
 
 __General exam prep resources (that you probably know if you have taken EX180)__
 
