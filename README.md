@@ -43,6 +43,7 @@ __Exam Sections__
     - Chapter 4
     - [Openshift Hooks/Triggers in RHOCP docs](https://docs.openshift.com/container-platform/4.6/builds/triggering-builds-build-hooks.html)
     - Easiest in web console
+    - If you are planning to do with oc commands, work on the postcommit command and script scenario's
 7. __Working with Templates__
     - Chapter 6 __VERSION 4.5__
     - Version 4.6 does not provide enough template content in my opinion
@@ -57,16 +58,20 @@ __Exam Sections__
 9. __Helm__
     - Try to practise all the labs from DO280
     - Understanding of the Helm commands, modifying the image details, updating the port details and installing the helm chart
-    - 
+    - It's very easy with oc commands
+10. __Jkube__
+    - Understanding the fundamentals and practising the gudied lab is enough.
 
 __General exam prep resources (that you probably know if you have taken EX180)__
 
 - Install [Codeready Containers (crc)](https://console.redhat.com/openshift/install/crc/installer-provisioned?intcmp=7013a000002CtetAAC) to save on lab hours or experiment on your own
   - Red Hat developer sandbox also works
+  - Red Hat partner trainig portal link https://ibm.seismic.com/app?ContentId=f8d25c6e-5a6e-4db4-b542-dad3e5d902f5#/content/f8d25c6e-5a6e-4db4-b542-dad3e5d902f5
 - Get your exam environment ready early
   - To use your IBM laptop for the exam, you need to disable secure boot
+  - Use the external monitor,key board and mouse
   - [Exam PDF](https://www.redhat.com/rhdc/managed-files/tr-remote-exams-preparation-ebook-f27382-202103-en_1.pdf) (includes link to most recent ISO)
-  - May need to use an [older ISO](https://static.redhat.com/downloads/training-certification/rhrexboot-2020-08.iso)
+  - May need to use an [older ISO](https://static.redhat.com/downloads/training-certification/rhrexboot-2020-08.iso). Prefer windows laptop
   - If the above do not work, you may need to try a different computer
 - Exam scheduler is in a 24 hour time format. Be mindful of this fact. You will not get your exam credit back if you miss it. And don’t ask why I feel the need to mention this.
 
@@ -76,6 +81,7 @@ __Exam Taking Tips__
 - During the exam, be sure to manage your time efficiently
 - Don't spend too much time on one question if you can’t figure it out
 - Try to leave time at the end to go back and test your answers
+-  You can take 10 mins break for each hour but that will be counted in your actual time.
 - Use the -h | --help flag
 - If you fail your first attempt (or think you did), immediately create a practice test __for yourself__ from what you can remember while the exam is fresh in your mind. Figure out the answers, then make sure you can do them quickly. It is important that you do not share this with anyone else, as that is against the NDA for obvious reasons.
 - Don’t stress if you don’t pass the first time. From what I have seen, most people don’t. And if you don’t have any retakes available for whatever reason, you can take a different version of the exam (until they remove it on 10/1/2021).
